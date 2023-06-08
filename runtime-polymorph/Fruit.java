@@ -1,19 +1,19 @@
 class Fruit {
     public void show() {
-        System.out.println("The animal makes a sound.");
+        System.out.println("Food");
     }
 }
 
 class Mango extends Fruit {
     @Override
     public void show() {
-        System.out.println("It's taste is sweet");
+        System.out.println("It tastes sweet");
     }
 }
 
 class Orange extends Fruit {
     @Override
     public void show() {
-        System.out.println("It's taste is also sweet");
+        System.out.println("It tastes good");
     }
 }
